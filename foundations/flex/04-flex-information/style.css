@@ -2,6 +2,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+  text-align: center;
+}
+
+.plantinfo {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.plantcard {
+  width: 200px;
+}
+
+.text {
+  margin: 0;
+}
+
 img {
   width: 100px;
   height: 100px;
